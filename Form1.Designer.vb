@@ -28,7 +28,8 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(216, 32)
+        Me.Button1.Font = New System.Drawing.Font("宋体", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Button1.Location = New System.Drawing.Point(200, 12)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(166, 64)
@@ -38,7 +39,8 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(37, 32)
+        Me.Button2.Font = New System.Drawing.Font("宋体", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Button2.Location = New System.Drawing.Point(11, 12)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(175, 64)
@@ -50,12 +52,12 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(412, 111)
+        Me.ClientSize = New System.Drawing.Size(374, 87)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "箍筋和拉筋计算"
         Me.ResumeLayout(False)
 
     End Sub
